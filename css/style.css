@@ -61,24 +61,34 @@
 }
 
 /* Base Styles
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  body {
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
 	margin:0;
 	padding:0;
 	background-color:#ffffff;
+
+	background-image: url("../images/bg.webp");
+	background-size: cover;
+	background-position: center;
+
+	text-shadow: 0 0 15px white;
+	
 	color:#1a1a1a;
 	font-family:"Open Sans",system-ui;
 	font-size:1.125rem;     				/* 18px */
-    font-weight:400;
+		font-weight:400;
 	line-height:1.6;
 }
 
 /* Typography
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  h1 {
+	–––––––––––––––––––––––––––––––––––––––––––––––––– */
+	h1 {
 	margin:0 0 0.5rem 0;
 	font-size:3rem;         		/* 48px */
-    font-weight:800;
+		font-weight:800;
+
+	text-shadow: none;
+
 	line-height:1;
 	letter-spacing:0;
 	word-wrap:break-word;
